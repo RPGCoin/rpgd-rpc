@@ -1,0 +1,37 @@
+{
+  "name": "rpgd-rpc",
+  "description": "RPGCoin Client Library to connect to RPGcoin via RPC",
+  "version": "1.0.0",
+  "author": "Silence <silence@rpgcoin.gg>",
+  "keywords": [
+    "rpgcoin",
+    "rpg",
+    "cryptocurrency",
+    "rpgd",
+    "rpc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RPGCore/rpgd-rpc"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test -R spec",
+    "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- --recursive"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2"
+  },
+  "dependencies": {
+    "async": "^1.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/RPGCoin/rpgd-rpc/issues"
+  },
+  "homepage": "https://github.com/RPGCoin/rpgd-rpc"
+}
