@@ -1,7 +1,7 @@
 {
   "name": "rpgd-rpc",
   "description": "RPGCoin Client Library to connect to RPGcoin via RPC",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Silence <silence@rpgcoin.gg>",
   "keywords": [
     "rpgcoin",
