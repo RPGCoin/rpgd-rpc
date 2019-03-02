@@ -1,4 +1,4 @@
-rpgd-rpc.js
+# rpgd-rpc.js
 ===============
 
 A client library to connect to RPGcoin RPC in JavaScript.
@@ -23,7 +23,7 @@ var run = function() {
     user: 'user',
     pass: 'pass',
     host: '127.0.0.1',
-    port: '7214',
+    port: '7210',
   };
 
   var rpc = new RpcClient(config);
